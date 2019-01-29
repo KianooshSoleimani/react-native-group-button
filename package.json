@@ -1,0 +1,24 @@
+{
+  "name": "react-native-gp-button",
+  "version": "1.0.0",
+  "description": "this is a group of button used in react-native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KianooshSoleimani/react-native-group-button.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-button",
+    "react-native-group-button"
+  ],
+  "author": "KianooshSoleimani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KianooshSoleimani/react-native-group-button/issues"
+  },
+  "homepage": "https://github.com/KianooshSoleimani/react-native-group-button#readme"
+}
