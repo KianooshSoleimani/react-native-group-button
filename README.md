@@ -8,7 +8,7 @@ I got this idea react-native-group-button from react-native-elements and changed
 
 ## Installation
 
-$ npm install react-native-group-button --save
+$ npm install react-native-gp-button --save
 
 ## Quick Start
 
