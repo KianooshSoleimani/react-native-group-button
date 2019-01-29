@@ -8,7 +8,7 @@ I got this idea from react-native-elements and changed something optimize it
 
 ## Installation
 
-$ npm install react-native-group-button --save
+$ npm install react-native-gp-button --save
 
 ## Quick Start
 
