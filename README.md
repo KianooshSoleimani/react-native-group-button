@@ -1,6 +1,6 @@
 # React Native Group Button
 
-I got this idea react-native-group-button from react-native-elements and changed something
+I got this idea from react-native-elements and changed something optimize it
 
 ## Features
 
