@@ -6,14 +6,17 @@ I got this idea react-native-group-button from react-native-elements and changed
 
 - You Can Use it as group of button horizontal or vertical 
 
-![alt text](https://github.com/KianooshSoleimani/react-native-group-button/blob/master/screenShot.png)
+![alt img]('./screenShot.png')
 
 ## Installation
 
+```sh
 $ npm install react-native-group-button --save
+```
 
 ## Quick Start
 
+```js
 import React, { Component } from 'react';
 import { StyleSheet, TouchableOpacity, View } from 'react-native';
 import ButtonGroup from 'react-native-gp-button';
@@ -96,5 +99,4 @@ const styles = StyleSheet.create({
   },
 
 });
-
-
+```
