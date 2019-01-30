@@ -1,6 +1,6 @@
 # React Native Group Button
 
-I got this idea from react-native-elements and changed something optimize it
+I got this idea react-native-group-button from react-native-elements and changed something
 
 ## Features
 
@@ -8,7 +8,7 @@ I got this idea from react-native-elements and changed something optimize it
 
 ## Installation
 
-$ npm install react-native-gp-button --save
+$ npm install react-native-group-button --save
 
 ## Quick Start
 

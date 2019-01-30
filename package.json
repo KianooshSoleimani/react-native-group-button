@@ -1,24 +1,52 @@
 {
-  "name": "react-native-gp-button",
-  "version": "1.0.0",
+  "_from": "react-native-gp-button",
+  "_id": "react-native-gp-button@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-CEN4h1ED4PwpvkBIz3vHeofCU/L6+F+QJOX3L5cZc+FtcTBaawAdUxXsh6Kku7OUko9ijwzFwZNgRaX83PFrbg==",
+  "_location": "/react-native-gp-button",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-gp-button",
+    "name": "react-native-gp-button",
+    "escapedName": "react-native-gp-button",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-gp-button/-/react-native-gp-button-1.0.0.tgz",
+  "_shasum": "fb807ee1ea484e7b5333bc9dddabcfbbe38638c8",
+  "_spec": "react-native-gp-button",
+  "_where": "D:\\WorkSpace\\ReactNative\\own\\testMyNpm",
+  "author": {
+    "name": "KianooshSoleimani"
+  },
+  "bugs": {
+    "url": "https://github.com/KianooshSoleimani/react-native-group-button/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "this is a group of button used in react-native",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KianooshSoleimani/react-native-group-button.git"
-  },
+  "homepage": "https://github.com/KianooshSoleimani/react-native-group-button#readme",
   "keywords": [
     "react-native",
     "react-native-button",
     "react-native-group-button"
   ],
-  "author": "KianooshSoleimani",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KianooshSoleimani/react-native-group-button/issues"
+  "main": "index.js",
+  "name": "react-native-gp-button",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KianooshSoleimani/react-native-group-button.git"
   },
-  "homepage": "https://github.com/KianooshSoleimani/react-native-group-button#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
 }
