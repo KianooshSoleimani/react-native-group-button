@@ -6,7 +6,7 @@ I got this idea react-native-group-button from react-native-elements and changed
 
 - You Can Use it as group of button horizontal or vertical 
 
-![alt img]('./screenShot.png')
+![alt img]('screenShot.png')
 
 ## Installation
 
