@@ -1,109 +1,52 @@
 # React Native Group Button
 
-I got this idea react-native-group-button from react-native-elements and changed something
-
-## Features
-
-- You Can Use it as group of button horizontal or vertical 
-
-![alt img](screenShot.png)
+This is a React Native library that provides the ability to create grouped buttons. With this library, you can create buttons with custom shapes, sizes, and colors and also add icons and text to the buttons.
 
 ## Installation
 
-```sh
-$ npm install react-native-group-button --save
+To install the library, run the following command:
+
+```bash
+npm install react-native-group-button
 ```
 
-## Quick Start
+## Usage
 
-```js
-import React, { Component } from 'react';
-import { StyleSheet, TouchableOpacity, View } from 'react-native';
-import ButtonGroup from 'react-native-gp-button';
+Import the library in your project:
 
-const buttons = ['first button', 'second button', 'third button'];
-
-
-export default class App extends Component {
-
-  constructor(props) {
-    super(props);
-    this.state = {
-      selectedIndexes: []
-    }
-  }
-
-  render() {
-    return (
-      <View style={styles.container}>
-        <ButtonGroup
-          isHorizontal={false}
-          component={TouchableOpacity}
-          selectMultiple
-          onPress={(item) => {
-            this.setState({ selectedIndexes: item })
-          }}
-          selectedIndexes={this.state.selectedIndexes}
-          buttons={buttons}
-          containerStyle={styles.buttonGroupContainer}
-          containerBorderRadius={50}
-          innerBorderStyle={{ color: 'transparent' }}
-          buttonStyle={styles.buttonGroupStyle}
-          textStyle={styles.buttonTextStyle}
-          selectedButtonStyle={styles.buttonGroupSelectedStyle}
-          selectedTextStyle={styles.buttonTextSelectedStyle}
-        />
-      </View>
-    );
-  }
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  buttonGroupContainer: {
-    
-  },
-  buttonGroupStyle: {
-    height: 50,
-    width: 100,
-    backgroundColor: 'white',
-    margin: 4,
-    padding: 2,
-    borderColor: '#6c797a',
-    borderWidth: 1,
-    borderRadius: 30,
-  },
-  buttonTextStyle: {
-    color: '#6c797a',
-    fontSize: 20,
-    textAlign: 'center',
-  },
-  buttonGroupSelectedStyle: {
-    height: 50,
-    width: 100,
-    backgroundColor: '#675beb',
-    borderRadius: 30,
-    margin: 4,
-    padding: 2,
-    borderColor: '#675beb',
-    borderWidth: 1
-  },
-  buttonTextSelectedStyle: {
-    color: '#ffffff',
-    fontSize: 20,
-    textAlign: 'center',
-  },
-
-});
+```javascript
+import GroupButton from 'react-native-group-button';
 ```
-## Authors
 
-* **Kianoosh Soleimani** -(https://github.com/KianooshSoleimani)
+Then, you can use the `GroupButton` component to create a group of buttons:
+
+```javascript
+<GroupButton
+  onPress={(index) => console.log(`Button ${index} pressed`)}
+  buttons={[
+    { label: 'Button 1', icon: require('./button1.png') },
+    { label: 'Button 2', icon: require('./button2.png') },
+    { label: 'Button 3', icon: require('./button3.png') },
+  ]}
+/>
+```
+
+## Props
+
+- `buttons`: An array of objects, each object representing a button. Each button object can have the following properties:
+  - `label` (required): The label of the button.
+  - `icon`: The icon of the button.
+  - `color`: The background color of the button.
+  - `textColor`: The text color of the button.
+  - `disabled`: Whether the button is disabled or not.
+- `onPress` (required): A function that is called when a button is pressed. The function takes the index of the pressed button as an argument.
+- `containerStyle`: The style object for the container of the buttons.
+- `buttonStyle`: The style object for the buttons.
+- `activeButtonStyle`: The style object for the active button.
+- `activeTextStyle`: The style object for the text of the active button.
+- `disabledButtonStyle`: The style object for the disabled button.
+- `disabledTextStyle`: The style object for the text of the disabled button.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This library is released under the MIT License. See LICENSE for details.
